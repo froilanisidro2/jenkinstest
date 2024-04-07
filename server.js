@@ -19,7 +19,7 @@ const auth = (req,res,  next) => {
 	next();
 }
 app.get('/',  (req, res) => {
-	res.send('Hello 3004!!!!!');
+	res.send('Hello Froilan!!!!!');
   })
 
 app.listen(port, () => {
