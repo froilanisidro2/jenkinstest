@@ -14,4 +14,4 @@ COPY . /app
 
 EXPOSE 3000
 
-CMD [ "node","run", "start" ]
+CMD [ "node","server.js" ]
