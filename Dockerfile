@@ -12,6 +12,6 @@ USER node
 
 COPY . /app
 
-EXPOSE 3002
+EXPOSE 3004
 
 CMD [ "node","server.js" ]
